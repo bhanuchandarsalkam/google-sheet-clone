@@ -1,0 +1,27 @@
+table{
+    border-collapse:collapse;
+}
+th,td{
+    min-width:65px;
+    border:1px solid;
+}
+td{
+    outline:none;
+}
+#selected{
+    display:inline-block;
+}
+.top{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+#itallic-btn{
+    font-style:italic;
+}
+#btn{
+    font-weight:bold;
+}
+#underline-btn{
+    text-decoration:underline;
+}
